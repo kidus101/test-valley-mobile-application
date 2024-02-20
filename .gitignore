@@ -41,3 +41,59 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart specific
+*.iml
+*.lock
+*.log
+.pub/
+/build/
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# IntelliJ/Android Studio specific
+.idea/
+*.swo
+*.swp
+*.swn
+*.hprof
+*.orig
+*.prof
+
+# Gradle specific
+.gradle/
+build/
+
+# Android specific
+android/
+build/
+captures/
+gradle/
+local.properties
+
+# iOS specific
+ios/
+Pods/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.xccheckout
+*.xcworkspace
+DerivedData/
+.idea/
+
+# Windows specific
+*.user
+*.suo
+*.bat
+*.cmd
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+ehthumbs.db
+Thumbs.db
